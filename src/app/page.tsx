@@ -72,60 +72,22 @@ export default function Home() {
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* GSPT */}
+            {/* Tend & Send */}
             <a
-              href="https://huggingface.co/spaces/jostlebot/GSPT"
+              href="https://huggingface.co/spaces/jostlebot/TendSend.PrototypeBot"
               target="_blank"
               rel="noopener noreferrer"
               className="tool-card bg-warm-white border border-soft-gray rounded-2xl p-6 hover:border-accent-warm/50"
             >
               <h3 className="font-serif text-xl font-medium text-text-primary mb-2">
-                GSPT
+                Tend & Send
               </h3>
               <p className="text-sm text-accent-warm mb-3">
-                Generating Safer Passages of Text
+                NVC Communication Support
               </p>
               <p className="text-text-secondary text-sm">
-                Warm, boundaried reflections using &ldquo;aI&rdquo; — demonstrating psychodynamic
-                depth without synthetic intimacy.
-              </p>
-            </a>
-
-            {/* Practice Fields Hub */}
-            <a
-              href="https://huggingface.co/spaces/jostlebot/PracticeFields.Hub"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="tool-card bg-warm-white border border-soft-gray rounded-2xl p-6 hover:border-accent-warm/50"
-            >
-              <h3 className="font-serif text-xl font-medium text-text-primary mb-2">
-                Practice Fields Hub
-              </h3>
-              <p className="text-sm text-accent-warm mb-3">
-                Bounded Practice Spaces
-              </p>
-              <p className="text-text-secondary text-sm">
-                Curated therapeutic practice environments. Skill-building through
-                structured, scoped interactions.
-              </p>
-            </a>
-
-            {/* Tolerate Space */}
-            <a
-              href="https://huggingface.co/spaces/jostlebot/TolerateSpace"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="tool-card bg-warm-white border border-soft-gray rounded-2xl p-6 hover:border-accent-warm/50"
-            >
-              <h3 className="font-serif text-xl font-medium text-text-primary mb-2">
-                Tolerate Space
-              </h3>
-              <p className="text-sm text-accent-warm mb-3">
-                Distress Tolerance Practice
-              </p>
-              <p className="text-text-secondary text-sm">
-                Build capacity to stay present with discomfort. Somatic grounding
-                and window of tolerance work.
+                Tools for real relationships. Receive mode, repair support, somatic
+                check-ins — always bridging back to your human.
               </p>
             </a>
 
@@ -167,22 +129,60 @@ export default function Home() {
               </p>
             </a>
 
-            {/* Tend & Send */}
+            {/* GSPT */}
             <a
-              href="https://huggingface.co/spaces/jostlebot/TendAndSend"
+              href="https://huggingface.co/spaces/jostlebot/GSPT"
               target="_blank"
               rel="noopener noreferrer"
               className="tool-card bg-warm-white border border-soft-gray rounded-2xl p-6 hover:border-accent-warm/50"
             >
               <h3 className="font-serif text-xl font-medium text-text-primary mb-2">
-                Tend & Send
+                GSPT
               </h3>
               <p className="text-sm text-accent-warm mb-3">
-                NVC Communication Support
+                Generating Safer Passages of Text
               </p>
               <p className="text-text-secondary text-sm">
-                Tools for real relationships. Receive mode, repair support, somatic
-                check-ins — always bridging back to your human.
+                Warm, boundaried reflections using &ldquo;aI&rdquo; — demonstrating psychodynamic
+                depth without synthetic intimacy.
+              </p>
+            </a>
+
+            {/* Practice Fields Hub */}
+            <a
+              href="https://huggingface.co/spaces/jostlebot/PracticeFields.Hub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tool-card bg-warm-white border border-soft-gray rounded-2xl p-6 hover:border-accent-warm/50"
+            >
+              <h3 className="font-serif text-xl font-medium text-text-primary mb-2">
+                Practice Fields Hub
+              </h3>
+              <p className="text-sm text-accent-warm mb-3">
+                Bounded Practice Spaces
+              </p>
+              <p className="text-text-secondary text-sm">
+                Curated therapeutic practice environments. Skill-building through
+                structured, scoped interactions.
+              </p>
+            </a>
+
+            {/* Tolerate Space Lab */}
+            <a
+              href="https://huggingface.co/spaces/jostlebot/TolerateSpaceLab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tool-card bg-warm-white border border-soft-gray rounded-2xl p-6 hover:border-accent-warm/50"
+            >
+              <h3 className="font-serif text-xl font-medium text-text-primary mb-2">
+                Tolerate Space Lab
+              </h3>
+              <p className="text-sm text-accent-warm mb-3">
+                Distress Tolerance Practice
+              </p>
+              <p className="text-text-secondary text-sm">
+                Build capacity to stay present with discomfort. Somatic grounding
+                and window of tolerance work.
               </p>
             </a>
           </div>
