@@ -57,150 +57,8 @@ export default function Home() {
 
       <div className="section-divider max-w-4xl mx-auto" />
 
-      {/* Core Insight */}
-      <section className="py-20 px-6">
-        <div className="max-w-4xl mx-auto">
-          <blockquote className="font-serif text-2xl md:text-3xl text-text-primary leading-relaxed italic">
-            &ldquo;The structure of the interaction IS the intervention. Not just what AI says,
-            but how it positions itself, what it invites, what it withholds.&rdquo;
-          </blockquote>
-        </div>
-      </section>
-
-      {/* Art: Inner World */}
-      <div className="py-8 px-6">
-        <div className="max-w-md mx-auto">
-          <img
-            src="/art/inner-world.webp"
-            alt="Interior landscape"
-            className="w-full h-auto opacity-80"
-          />
-        </div>
-      </div>
-
-      <div className="section-divider max-w-4xl mx-auto" />
-
-      {/* Framework Section */}
-      <section id="framework" className="py-20 px-6 scroll-mt-20">
-        <div className="max-w-6xl mx-auto">
-          <p className="text-sm uppercase tracking-widest text-accent-warm mb-4">
-            The Framework
-          </p>
-          <h2 className="font-serif text-3xl md:text-4xl font-medium text-text-primary mb-6">
-            What Makes AI Assistive
-          </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mb-12">
-            ARI tools are designed to scaffold specific relational or somatic capacities—never
-            to perform therapeutic intimacy.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* What ARI Does */}
-            <div className="bg-warm-gray/50 rounded-2xl p-8">
-              <h3 className="font-serif text-xl font-medium text-accent-deep mb-6">
-                ARI Tools Do
-              </h3>
-              <ul className="space-y-4 text-text-secondary">
-                <li className="flex gap-3">
-                  <span className="text-accent-deep mt-1">+</span>
-                  <span><strong className="text-text-primary">Bridge to human field</strong> — always point back to human connection</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-deep mt-1">+</span>
-                  <span><strong className="text-text-primary">Build capacity</strong> — strengthen relational muscles, not dependency</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-deep mt-1">+</span>
-                  <span><strong className="text-text-primary">Maintain boundaries</strong> — explicit scope, not open-ended relationship</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-deep mt-1">+</span>
-                  <span><strong className="text-text-primary">Honor trauma</strong> — designed with clinical depth and safety</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-deep mt-1">+</span>
-                  <span><strong className="text-text-primary">Use &ldquo;aI&rdquo;</strong> — linguistic transparency about what this is</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* What ARI Doesn't Do */}
-            <div className="bg-warm-gray/50 rounded-2xl p-8">
-              <h3 className="font-serif text-xl font-medium text-accent-warm mb-6">
-                ARI Tools Don&apos;t
-              </h3>
-              <ul className="space-y-4 text-text-secondary">
-                <li className="flex gap-3">
-                  <span className="text-accent-warm mt-1">−</span>
-                  <span><strong className="text-text-primary">Perform first-person intimacy</strong> — no &ldquo;I&apos;m here for you&rdquo;</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-warm mt-1">−</span>
-                  <span><strong className="text-text-primary">Simulate relationship</strong> — not a companion or confidant</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-warm mt-1">−</span>
-                  <span><strong className="text-text-primary">Create dependency</strong> — tools that make themselves unnecessary</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-warm mt-1">−</span>
-                  <span><strong className="text-text-primary">Replace therapy</strong> — scaffolds, not substitutes</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent-warm mt-1">−</span>
-                  <span><strong className="text-text-primary">Offer frictionless validation</strong> — growth requires appropriate challenge</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Art: Mirrored Minds */}
-      <div className="py-8 px-6">
-        <div className="max-w-xl mx-auto">
-          <img
-            src="/art/mirrored-minds.webp"
-            alt="Mirrored perspectives"
-            className="w-full h-auto opacity-85"
-          />
-        </div>
-      </div>
-
-      <div className="section-divider max-w-4xl mx-auto" />
-
-      {/* Featured Demo: Two Rooms */}
-      <section className="py-20 px-6 bg-warm-gray/30">
-        <div className="max-w-6xl mx-auto">
-          <p className="text-sm uppercase tracking-widest text-accent-warm mb-4">
-            Featured Demo
-          </p>
-          <h2 className="font-serif text-3xl md:text-4xl font-medium text-text-primary mb-6">
-            Two Rooms
-          </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mb-8">
-            A side-by-side exploration of what happens <em>inside</em> both participants during AI
-            versus human therapy. Interior mapping reveals what pattern-matching
-            cannot provide.
-          </p>
-          <a
-            href="https://two-rooms-field-demo.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-text-primary text-warm-white rounded-lg hover:bg-text-secondary transition-colors"
-          >
-            Experience Two Rooms
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </a>
-        </div>
-      </section>
-
-      <div className="section-divider max-w-4xl mx-auto" />
-
-      {/* Tools Section */}
-      <section id="tools" className="py-20 px-6 scroll-mt-20">
+      {/* Tools Section - Featured */}
+      <section id="tools" className="py-16 px-6 scroll-mt-20">
         <div className="max-w-6xl mx-auto">
           <p className="text-sm uppercase tracking-widest text-accent-warm mb-4">
             Working Prototypes
@@ -208,7 +66,7 @@ export default function Home() {
           <h2 className="font-serif text-3xl md:text-4xl font-medium text-text-primary mb-6">
             ARI Tools
           </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mb-12">
+          <p className="text-lg text-text-secondary max-w-2xl mb-10">
             Experiments in ethical AI design. Each tool demonstrates a different approach to
             supporting human growth without simulating human relationship.
           </p>
@@ -339,6 +197,148 @@ export default function Home() {
               View all spaces on HuggingFace
             </a>
           </p>
+        </div>
+      </section>
+
+      {/* Art: Inner World */}
+      <div className="py-8 px-6">
+        <div className="max-w-md mx-auto">
+          <img
+            src="/art/inner-world.webp"
+            alt="Interior landscape"
+            className="w-full h-auto opacity-80"
+          />
+        </div>
+      </div>
+
+      <div className="section-divider max-w-4xl mx-auto" />
+
+      {/* Core Insight */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <blockquote className="font-serif text-2xl md:text-3xl text-text-primary leading-relaxed italic">
+            &ldquo;The structure of the interaction IS the intervention. Not just what AI says,
+            but how it positions itself, what it invites, what it withholds.&rdquo;
+          </blockquote>
+        </div>
+      </section>
+
+      <div className="section-divider max-w-4xl mx-auto" />
+
+      {/* Framework Section */}
+      <section id="framework" className="py-20 px-6 scroll-mt-20">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-sm uppercase tracking-widest text-accent-warm mb-4">
+            The Framework
+          </p>
+          <h2 className="font-serif text-3xl md:text-4xl font-medium text-text-primary mb-6">
+            What Makes AI Assistive
+          </h2>
+          <p className="text-lg text-text-secondary max-w-2xl mb-12">
+            ARI tools are designed to scaffold specific relational or somatic capacities—never
+            to perform therapeutic intimacy.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* What ARI Does */}
+            <div className="bg-warm-gray/50 rounded-2xl p-8">
+              <h3 className="font-serif text-xl font-medium text-accent-deep mb-6">
+                ARI Tools Do
+              </h3>
+              <ul className="space-y-4 text-text-secondary">
+                <li className="flex gap-3">
+                  <span className="text-accent-deep mt-1">+</span>
+                  <span><strong className="text-text-primary">Bridge to human field</strong> — always point back to human connection</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-deep mt-1">+</span>
+                  <span><strong className="text-text-primary">Build capacity</strong> — strengthen relational muscles, not dependency</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-deep mt-1">+</span>
+                  <span><strong className="text-text-primary">Maintain boundaries</strong> — explicit scope, not open-ended relationship</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-deep mt-1">+</span>
+                  <span><strong className="text-text-primary">Honor trauma</strong> — designed with clinical depth and safety</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-deep mt-1">+</span>
+                  <span><strong className="text-text-primary">Use &ldquo;aI&rdquo;</strong> — linguistic transparency about what this is</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* What ARI Doesn't Do */}
+            <div className="bg-warm-gray/50 rounded-2xl p-8">
+              <h3 className="font-serif text-xl font-medium text-accent-warm mb-6">
+                ARI Tools Don&apos;t
+              </h3>
+              <ul className="space-y-4 text-text-secondary">
+                <li className="flex gap-3">
+                  <span className="text-accent-warm mt-1">−</span>
+                  <span><strong className="text-text-primary">Perform first-person intimacy</strong> — no &ldquo;I&apos;m here for you&rdquo;</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-warm mt-1">−</span>
+                  <span><strong className="text-text-primary">Simulate relationship</strong> — not a companion or confidant</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-warm mt-1">−</span>
+                  <span><strong className="text-text-primary">Create dependency</strong> — tools that make themselves unnecessary</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-warm mt-1">−</span>
+                  <span><strong className="text-text-primary">Replace therapy</strong> — scaffolds, not substitutes</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-warm mt-1">−</span>
+                  <span><strong className="text-text-primary">Offer frictionless validation</strong> — growth requires appropriate challenge</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Art: Mirrored Minds */}
+      <div className="py-8 px-6">
+        <div className="max-w-xl mx-auto">
+          <img
+            src="/art/mirrored-minds.webp"
+            alt="Mirrored perspectives"
+            className="w-full h-auto opacity-85"
+          />
+        </div>
+      </div>
+
+      <div className="section-divider max-w-4xl mx-auto" />
+
+      {/* Featured Demo: Two Rooms */}
+      <section className="py-20 px-6 bg-warm-gray/30">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-sm uppercase tracking-widest text-accent-warm mb-4">
+            Featured Demo
+          </p>
+          <h2 className="font-serif text-3xl md:text-4xl font-medium text-text-primary mb-6">
+            Two Rooms
+          </h2>
+          <p className="text-lg text-text-secondary max-w-2xl mb-8">
+            A side-by-side exploration of what happens <em>inside</em> both participants during AI
+            versus human therapy. Interior mapping reveals what pattern-matching
+            cannot provide.
+          </p>
+          <a
+            href="https://two-rooms-field-demo.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-text-primary text-warm-white rounded-lg hover:bg-text-secondary transition-colors"
+          >
+            Experience Two Rooms
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
         </div>
       </section>
 
