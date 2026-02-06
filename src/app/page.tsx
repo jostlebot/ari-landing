@@ -521,6 +521,9 @@ export default function Home() {
             AI tools that return you to the human field.
           </p>
         </div>
+        <p className="text-center text-xs text-text-secondary/60 mt-8">
+          All illustrations by the author
+        </p>
       </footer>
     </main>
   )
