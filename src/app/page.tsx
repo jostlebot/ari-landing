@@ -129,6 +129,25 @@ export default function Home() {
               </p>
             </a>
 
+            {/* ShadowBox */}
+            <a
+              href="https://huggingface.co/spaces/jostlebot/shadowbox.library"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="tool-card bg-warm-white border border-soft-gray rounded-2xl p-6 hover:border-accent-warm/50"
+            >
+              <h3 className="font-serif text-xl font-medium text-text-primary mb-2">
+                ShadowBox
+              </h3>
+              <p className="text-sm text-accent-warm mb-3">
+                Trauma-Informed Disclosure
+              </p>
+              <p className="text-text-secondary text-sm">
+                A boundaried space for processing difficult thoughts. Psychoeducation
+                and bridging to human support.
+              </p>
+            </a>
+
             {/* GSPT */}
             <a
               href="https://huggingface.co/spaces/jostlebot/GSPT"
